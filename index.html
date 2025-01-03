@@ -429,7 +429,10 @@
     <div class="outer-loader" id="index-loader">
       <div class="loader-content mobile_animation" style="display: inline-block;">
         <!-- <img class="loader-img" src="./images/banners/destop_animation.gif" alt="Animated GIF"> -->
-        <p class="loader">United Coffee House</p>
+        <div class="loader">
+          <p >United Coffee House</p>
+          <span>Delhi's First Cafe Since 1942</span>
+        </div>
         <img src="./images/uho.jpg" alt="">
       </div>
 
@@ -1757,19 +1760,19 @@
   }
 
   window.addEventListener("load", function () {
-  const loader = document.getElementById("index-loader");
-  document.body.classList.add("no-scroll"); // Disable scroll and hide scrollbar
-  
-  // Hide loader and restore scrolling after 2 seconds
-  setTimeout(() => {
-    loader.classList.add("hidden");
-    document.body.classList.remove("no-scroll"); // Re-enable scroll and scrollbar
-  }, 2000); // Adjust time as needed
-});
+    const loader = document.getElementById("index-loader");
+    document.body.classList.add("no-scroll"); // Disable scroll and hide scrollbar
+
+    // Hide loader and restore scrolling after 2 seconds
+    setTimeout(() => {
+      loader.classList.add("hidden");
+      document.body.classList.remove("no-scroll"); // Re-enable scroll and scrollbar
+    }, 2000); // Adjust time as needed
+  });
 
 
   window.addEventListener("load", function () {
-    setTimeout(showContent, 5000);
+    setTimeout(showContent, 7000);
     document.querySelector(".apper-text").style.opacity = 1;
 
   }); 

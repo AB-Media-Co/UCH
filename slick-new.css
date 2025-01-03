@@ -318,44 +318,73 @@
 }
 
 .loader {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     font-family: "Pinyon Script" !important;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-    animation: typing;
     color: #4e261a;
-    animation-duration: 3s;
-    animation-timing-function: steps(50);
-    animation-fill-mode: forwards;
     font-size: 120px !important;
     position: absolute;
+    justify-content: center !important;
+    align-items: center !important;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 50;
-}
-
-@media screen and (max-width:430px) {
-    .loader {
-        font-size: 48px !important;
-    }
-}
-
-@media screen and (max-width: 770px) and (min-width: 430px) {
-    .loader {
-        font-size: 80px !important;
-    }
-}
-
-@keyframes typing {
+  }
+  
+  .loader p {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typingP 3s steps(50) forwards; /* Typing animation for <p> */
+    margin-bottom: 0 !important;
+  }
+  
+  .loader span {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    font-size: 40px !important;
+    color: black;
+    animation: typingSpan 3s steps(50) forwards;
+    animation-delay: 3s; /* Starts after the <p> animation */
+  }
+  
+  @keyframes typingP {
     from {
-        width: 0;
+      width: 0;
     }
-
     to {
-        width: 100%;
+      width: 100%;
     }
-}
-
-
+  }
+  
+  @keyframes typingSpan {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 430px) {
+    .loader p {
+      font-size: 48px !important;
+    }
+    .loader span {
+      font-size: 18px !important;
+    }
+  }
+  
+  @media screen and (max-width: 770px) and (min-width: 430px) {
+    .loader p {
+      font-size: 80px !important;
+    }
+    .loader span {
+      font-size: 34px !important;
+    }
+  }
+  

@@ -279,17 +279,17 @@
     }
 }
 
-.outer-loader .loader-content .loader-content {
+.outer-loader .loader-content  {
     font-family: "Pinyon Script" !important;
 
 }
 
-.loader-content .loader-content {
+.loader-content {
     font-family: "Pinyon Script" !important;
 
 }
 
-.loader-content .loader-content img {
+.loader-content  img {
     scale: 1.1;
     z-index: 40;
     animation: imgscale 3s forwards, fadein 3s forwards;
@@ -357,3 +357,5 @@
         width: 100%;
     }
 }
+
+

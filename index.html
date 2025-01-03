@@ -94,7 +94,7 @@
     #index-loader {
       font-family: "Pinyon Script" !important;
       position: fixed;
-      
+
       top: 0;
       left: 0;
       width: 100%;
@@ -225,7 +225,6 @@
       width: 100%;
       height: 100vh;
     }
-
   </style>
   <script type="text/javascript" charset="UTF-8" src="./United Coffee House_files/common.js.download"></script>
   <script type="text/javascript" charset="UTF-8" src="./United Coffee House_files/util.js.download"></script>
@@ -1755,8 +1754,19 @@
   // loader
   function showContent() {
     document.querySelector("#index-loader").style.display = "none";
-
   }
+
+  window.addEventListener("load", function () {
+  const loader = document.getElementById("index-loader");
+  document.body.classList.add("no-scroll"); // Disable scroll and hide scrollbar
+  
+  // Hide loader and restore scrolling after 2 seconds
+  setTimeout(() => {
+    loader.classList.add("hidden");
+    document.body.classList.remove("no-scroll"); // Re-enable scroll and scrollbar
+  }, 2000); // Adjust time as needed
+});
+
 
   window.addEventListener("load", function () {
     setTimeout(showContent, 5000);

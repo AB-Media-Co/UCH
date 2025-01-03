@@ -7,6 +7,13 @@
 
 /* Icons */
 
+#index-loader {
+    font-family: "Pinyon Script" !important;
+    font-family: "Pinyon Script" !important;
+    font-family: "Pinyon Script" !important;
+    font-family: "Pinyon Script" !important;
+}
+
 @font-face {
     font-family: 'slick';
     font-weight: normal;
@@ -334,6 +341,7 @@
         font-size: 48px !important;
     }
 }
+
 @media screen and (max-width: 770px) and (min-width: 430px) {
     .loader {
         font-size: 80px !important;

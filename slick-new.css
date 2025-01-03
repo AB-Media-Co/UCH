@@ -272,39 +272,44 @@
     }
 }
 
-.outer-loader  .loader-content{
-    font-family: "Pinyon Script" !important;
-
-}
-.loader-content{
+.outer-loader .loader-content .loader-content {
     font-family: "Pinyon Script" !important;
 
 }
 
-.loader-content img {
+.loader-content .loader-content {
+    font-family: "Pinyon Script" !important;
+
+}
+
+.loader-content .loader-content img {
     scale: 1.1;
     z-index: 40;
     animation: imgscale 3s forwards, fadein 3s forwards;
-  }
-  
-  @keyframes imgscale {
+    max-width: 100% !important;
+
+}
+
+@keyframes imgscale {
     from {
-      scale: 1.1;
+        scale: 1.1;
     }
+
     to {
-      scale: 1.2;
+        scale: 1.2;
     }
-  }
-  
-  @keyframes fadein {
+}
+
+@keyframes fadein {
     from {
-      opacity: 0;
+        opacity: 0;
     }
+
     to {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
+}
+
 .loader {
     font-family: "Pinyon Script" !important;
     overflow: hidden;
@@ -320,9 +325,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
     text-align: center;
     z-index: 50;
+}
+
+@media screen and (max-width:430px) {
+    .loader {
+        font-size: 48px !important;
+    }
+}
+@media screen and (max-width: 770px) and (min-width: 430px) {
+    .loader {
+        font-size: 80px !important;
+    }
 }
 
 @keyframes typing {

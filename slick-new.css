@@ -279,23 +279,23 @@
     }
 }
 
-.outer-loader .loader-content  {
-    font-family: "Pinyon Script" !important;
 
-}
-
-.loader-content {
-    font-family: "Pinyon Script" !important;
-
-}
 
 .loader-content  img {
     scale: 1.1;
     z-index: 40;
     animation: imgscale 3s forwards, fadein 3s forwards;
-    max-width: 100% !important;
+  
+    /* max-width: 100% !important; */
 
 }
+
+@media screen and (min-width: 770px) {
+    .loader-content  img{
+        position: relative !important;
+        left: 10% !important;
+    }
+  }
 
 @keyframes imgscale {
     from {
@@ -338,8 +338,10 @@
     overflow: hidden;
     white-space: nowrap;
     width: 0;
-    animation: typingP 3s steps(50) forwards; /* Typing animation for <p> */
+    animation: typingP 3s steps(50) forwards, fadein 3s forwards;
     margin-bottom: 0 !important;
+    animation-delay: 800ms;
+
   }
   
   .loader span {
@@ -349,7 +351,7 @@
     font-size: 40px !important;
     color: black;
     animation: typingSpan 3s steps(50) forwards;
-    animation-delay: 3s; /* Starts after the <p> animation */
+    animation-delay: 3.9s;
   }
   
   @keyframes typingP {
@@ -387,4 +389,7 @@
       font-size: 34px !important;
     }
   }
+  
+  
+
   

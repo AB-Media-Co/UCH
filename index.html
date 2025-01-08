@@ -34,6 +34,9 @@
     integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
     crossorigin="anonymous" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/aos.css">
 
@@ -1769,13 +1772,11 @@
 
   window.addEventListener("load", function () {
     const loader = document.getElementById("index-loader");
-    document.body.classList.add("no-scroll"); // Disable scroll and hide scrollbar
-
-    // Hide loader and restore scrolling after 2 seconds
+    document.body.classList.add("no-scroll");
     setTimeout(() => {
       loader.classList.add("hidden");
-      document.body.classList.remove("no-scroll"); // Re-enable scroll and scrollbar
-    }, 2000); // Adjust time as needed
+      document.body.classList.remove("no-scroll");
+    }, 2000);
   });
 
 

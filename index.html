@@ -234,6 +234,21 @@
     .outer-loader .loader-content {
       font-family: "Pinyon Script" !important;
     }
+
+    .loader-video {
+      width: auto;
+      height: 100vh;
+      /* or position absolutely if you want a full-screen loader */
+    }
+
+    @media(max-width:767px) {
+      .loader-video {
+        width: auto;
+        height: 15rem;
+        /* or position absolutely if you want a full-screen loader */
+      }
+
+    }
   </style>
 
 </head>
@@ -362,8 +377,8 @@
         <div class="col-lg-12">
           <!-- <img src="./images/banners/Apple Pie.webp" width="100%" style="max-height: 90vh;" loading="lazy"
             alt="Image description 1"> -->
-          <img src="./images/NewImages/HomePage/_E5A6322-Edit.webp" width="100%" style="max-height: 90vh;" loading="lazy"
-            alt="Image description 1">
+          <img src="./images/NewImages/HomePage/_E5A6322-Edit.webp" width="100%" style="max-height: 90vh;"
+            loading="lazy" alt="Image description 1">
         </div>
 
         <div class="col-lg-12">
@@ -450,8 +465,8 @@
                1280px" width="100%" style="max-height: 90vh;" loading="lazy" alt="Image description 1"> -->
           <!-- <img src="./images/banners/Capture0010-9907.jpg" width="100%" style="max-height: 90vh;" loading="lazy"
             alt="Image description 1"> -->
-          <img src="./images/NewImages/HomePage/SOLE PAUPIETTE_8.webp" width="100%" style="max-height: 90vh;" loading="lazy"
-            alt="Image description 1">
+          <img src="./images/NewImages/HomePage/SOLE PAUPIETTE_8.webp" width="100%" style="max-height: 90vh;"
+            loading="lazy" alt="Image description 1">
         </div>
       </div>
     </div>
@@ -460,12 +475,18 @@
 
     <div class="outer-loader" id="index-loader">
       <div class="loader-content mobile_animation" style="display: inline-block; font-family: Pinyon Script">
-        <img class="loader-img" src="./images/destop_animation.gif" alt="Animated GIF">
+        <!-- <img class="loader-img" src="./images/destop_animation.gif" alt="Animated GIF"> -->
         <!-- <div class="loader">
           <p>United Coffee House</p>
           <span>Delhi's First Cafe Since 1942</span>
         </div> -->
         <!-- <img src="./images/uho.jpg" alt=""> -->
+
+        <video class="loader-video" autoplay muted loop playsinline>
+          <!-- <source src="./images/destop_animation.webm" type="video/webm" /> -->
+          <source src="./images/destop_animation.mp4" type="video/mp4" />
+          <!-- Your browser does not support the video tag. -->
+        </video>
       </div>
     </div>
 
@@ -847,7 +868,8 @@
         </ul>
         <div class="socialrightrow">
           <ul>
-            <li><a href="https://www.instagram.com/unitedcoffeehouse/"><img src="images/hommepage/icon%20_instagram.png" alt="img" /></a></li>
+            <li><a href="https://www.instagram.com/unitedcoffeehouse/"><img src="images/hommepage/icon%20_instagram.png"
+                  alt="img" /></a></li>
             <li><a href="#"><img src="images/hommepage/icon%20_facebook.png" alt="img" /></a></li>
             <li><a href="#"><img src="images/hommepage/icon%20_twitter.png" alt="img" /></a></li>
           </ul>
@@ -1802,7 +1824,7 @@
 
 
   window.addEventListener("load", function () {
-    setTimeout(showContent, 6000);
+    setTimeout(showContent, 8000);
     document.querySelector(".apper-text").style.opacity = 1;
 
   }); 

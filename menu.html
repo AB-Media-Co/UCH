@@ -54,8 +54,8 @@
     crossorigin="anonymous" />
 
 <body style="overflow-x: hidden;">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
   <style>
@@ -110,6 +110,8 @@
         width: 84.5%;
       }
     }
+
+  
   </style>
   <style>
     .margin_bottom_exp {
@@ -131,7 +133,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img class="logosize" src="images/logos/logo.png" alt="" />
-          <img class="logosizeMob" src="images/logos/mobilelogo.png" alt="" />
+           <img class="logosizeMob" src="images/logos/mobilelogo.png" alt="" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
           aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -309,32 +311,32 @@
             <div class="row menu">
               <div class="col-lg-4 ">
                 <div class="history-image">
-                  <img src="images/menu/DSC_6024 (1).jpg" style="height: 280px !important;" width="100%;">
+                  <img src="images/menu/DSC_6024 (1).jpg" width="100%;">
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="history-image">
-                  <img src="images/menu/DSC_6028.jpg" style="height: 280px !important;" width="100%;">
+                  <img src="images/menu/DSC_6028.jpg" width="100%;">
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="history-image">
-                  <img src="images/menu//Capture0023-6512.jpg" style="height: 280px !important;" width="100%;">
+                  <img src="images/menu//Capture0023-6512.jpg" width="100%;">
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="history-image">
-                  <img src="images/menu/Capture0009-9890 (1).webp" style="height: 280px !important;" width="100%;">
+                  <img src="images/menu/Capture0009-9890 (1).webp" width="100%;">
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="history-image">
-                  <img src="images/menu/Capture0039-9850 (2).webp" style="height: 280px !important;" width="100%;">
+                  <img src="images/menu/Capture0039-9850 (2).webp" width="100%;">
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="history-image">
-                  <img src="images/menu/DSC_8283 copy (1).webp" width="100%;" style="height: 280px !important;">
+                  <img src="images/menu/DSC_8283 copy (1).webp" width="100%;">
                 </div>
               </div>
             </div>
@@ -364,8 +366,7 @@
                   <div class="menu-hr only_head">
                     <h2 class="second-title" style="color:#fff;">Channa Bhature</h2>
                   </div>
-                  <img src="images/experiences_menu/1_1 Experience/channa bhature-min (1).JPG" width="100%"
-                    loading="lazy">
+                  <img src="images/experiences_menu/1_1 Experience/channa bhature-min (1).JPG" width="100%" loading="lazy">
                 </div>
               </div>
 
@@ -400,7 +401,8 @@
                   <div class="menu-hr only_head">
                     <h2 class="second-title" style="color:#fff;">FUN TIME WITH FRIENDS & FAMILY</h2>
                   </div>
-                  <img src="images/experiences_menu/1_1 Experience/DSC_8318.webp" width="100%" loading="lazy">
+                  <img src="images/experiences_menu/1_1 Experience/DSC_8318.webp"
+                    width="100%" loading="lazy">
                 </div>
               </div>
 
@@ -454,8 +456,7 @@
         </ul>
         <div class="socialrightrow">
           <ul>
-            <li><a href="https://www.instagram.com/unitedcoffeehouse/"><img src="images/hommepage/icon%20_instagram.png"
-                  alt="img" /></a></li>
+            <li><a href="https://www.instagram.com/unitedcoffeehouse/"><img src="images/hommepage/icon%20_instagram.png" alt="img" /></a></li>
             <li><a href="#"><img src="images/hommepage/icon%20_facebook.png" alt="img" /></a></li>
             <li><a href="#"><img src="images/hommepage/icon%20_twitter.png" alt="img" /></a></li>
           </ul>
@@ -485,11 +486,11 @@
           </div>
           <div class="col-3">
             <ul class="icon2">
-              <li><a href="#"><img src="images/hommepage/icon%20_instagram.png" alt="img" width="20px"></a></li>
+              <li><a href="#"><img src="images/hommepage/icon%20_instagram.png" alt="img"  width="20px"></a></li>
               &nbsp;&nbsp;
-              <li><a href="#"><img src="images/hommepage/icon%20_facebook.png" alt="img" width="20px"></a></li>
+              <li><a href="#"><img src="images/hommepage/icon%20_facebook.png" alt="img"  width="20px"></a></li>
               &nbsp;&nbsp;
-              <li><a href="#"><img src="images/hommepage/icon%20_twitter.png" alt="img" width="20px"></a></li>
+              <li><a href="#"><img src="images/hommepage/icon%20_twitter.png" alt="img"  width="20px"></a></li>
             </ul>
           </div>
         </div>
@@ -571,55 +572,67 @@
 
 
 
-    <script>
-      function setMinMaxDates() {
-        var today = new Date();
-        var minDate = new Date();
-        var maxDate = new Date();
-        maxDate.setDate(today.getDate() + 3);
+<script>
+  function setMinMaxDates()
+  {
+    var today = new Date();
+    var minDate = new Date();
+    var maxDate = new Date();
+    maxDate.setDate(today.getDate() + 3);
 
-        // Update the input element attributes
-        document.getElementById("date-input").min = formatDate(minDate);
-        document.getElementById("date-input").max = formatDate(maxDate);
-      }
+    // Update the input element attributes
+    document.getElementById("date-input").min = formatDate(minDate);
+    document.getElementById("date-input").max = formatDate(maxDate);
+  }
 
-      function formatDate(date) {
-        var year = date.getFullYear();
-        var month = String(date.getMonth() + 1).padStart(2, "0");
-        var day = String(date.getDate()).padStart(2, "0");
-        return year + "-" + month + "-" + day;
-      }
+  function formatDate(date)
+  {
+    var year = date.getFullYear();
+    var month = String(date.getMonth() + 1).padStart(2, "0");
+    var day = String(date.getDate()).padStart(2, "0");
+    return year + "-" + month + "-" + day;
+  }
 
-      // Call the function to set the initial min and max dates
-      setMinMaxDates();
+  // Call the function to set the initial min and max dates
+  setMinMaxDates();
 
-      // Attach an event listener to update the min and max dates when the input is clicked
-      document.getElementById("date-input").addEventListener("click", setMinMaxDates);
-    </script>
+  // Attach an event listener to update the min and max dates when the input is clicked
+document.getElementById("date-input").addEventListener("click", setMinMaxDates);
+</script>
+
+
+
+
+
+
 
 
 
     <script> // Floating Card
 
 
-      function OpenModel() {
+      function OpenModel()
+      {
 
         // alert("Opening the second model...");
         const model_card = document.getElementById("floating_card");
 
-        if (model_card.style.display = 'none') {
+        if (model_card.style.display = 'none')
+        {
           model_card.style.display = 'block'
         }
 
       }
 
-      function Close() {
+      function Close()
+      {
 
         // alert("I am Called");
 
         const model_card = document.getElementById("floating_card");
 
-        if (model_card.style.display = 'block') {
+        if (model_card.style.display = 'block')
+        {
           model_card.style.display = 'none'
         }
 
@@ -638,8 +651,10 @@
       let charIndex = 0;
       let blurIndex = 20;
 
-      function type() {
-        if (charIndex < textArray[textArrayIndex].length) {
+      function type()
+      {
+        if (charIndex < textArray[textArrayIndex].length)
+        {
           if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
           typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
           charIndex++;
@@ -648,14 +663,17 @@
           setTimeout(type, typingDelay);
         }
 
-        else {
+        else
+        {
           cursorSpan.classList.remove("typing");
           setTimeout(erase, newTextDelay);
         }
       }
 
-      function erase() {
-        if (charIndex > 0) {
+      function erase()
+      {
+        if (charIndex > 0)
+        {
           if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
           typedTextSpan.textContent = textArray[textArrayIndex].substring(0,
             charIndex - 1);
@@ -663,7 +681,8 @@
           setTimeout(erase, erasingDelay);
         }
 
-        else {
+        else
+        {
           cursorSpan.classList.remove("typing");
           textArrayIndex++;
           if (textArrayIndex >= textArray.length) textArrayIndex = 0;
@@ -671,7 +690,8 @@
         }
       }
 
-      document.addEventListener("DOMContentLoaded", function () {
+      document.addEventListener("DOMContentLoaded", function ()
+      {
         // On DOM Load initiate the effect
         if (textArray.length) setTimeout(type, newTextDelay + 250);
       });
@@ -684,7 +704,8 @@
       changeSlides();
       let int = setInterval(changeSlides, 4000);
 
-      function changeSlides() {
+      function changeSlides()
+      {
         slides[prevActive].classList.remove("active");
         controls[prevActive].classList.remove("active");
 
@@ -693,15 +714,18 @@
 
         prevActive = activeSlide++;
 
-        if (activeSlide >= slides.length) {
+        if (activeSlide >= slides.length)
+        {
           activeSlide = 0;
         }
 
         console.log(prevActive, activeSlide);
       }
 
-      controls.forEach((control) => {
-        control.addEventListener("click", () => {
+      controls.forEach((control) =>
+      {
+        control.addEventListener("click", () =>
+        {
           let idx = [...controls].findIndex((c) => c === control);
           activeSlide = idx;
 
@@ -714,16 +738,19 @@
     </script>
     <script>const cursor = document.querySelector(".cursor");
 
-      document.addEventListener("mousemove", (e) => {
+      document.addEventListener("mousemove", (e) =>
+      {
         cursor.setAttribute("style",
           "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
         );
       });
 
-      document.addEventListener("click", (e) => {
+      document.addEventListener("click", (e) =>
+      {
         cursor.classList.add("expand");
 
-        setTimeout(() => {
+        setTimeout(() =>
+        {
           cursor.classList.remove("expand");
         }
 
@@ -737,14 +764,17 @@
     </script> -->
     <script> // const cursor = document.querySelector('.cursor');
 
-      document.addEventListener('mousemove', e => {
+      document.addEventListener('mousemove', e =>
+      {
         cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
       });
 
-      document.addEventListener('click', e => {
+      document.addEventListener('click', e =>
+      {
         cursor.classList.add("expand");
 
-        setTimeout(() => {
+        setTimeout(() =>
+        {
           cursor.classList.remove("expand");
         }
 
@@ -770,6 +800,7 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+  </body>
   <style type="text/css">
     @media only screen and (max-width: 820px) {
       .mycreat {
@@ -1047,7 +1078,9 @@
 
           }
         }
-
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
       ]
     });
 
@@ -1089,6 +1122,5 @@
     });
 
   </script>
-  </body>
 
 </html>

@@ -293,7 +293,7 @@
 @media screen and (min-width: 770px) {
     .loader-content img {
         position: relative !important;
-        left: 10% !important;
+        /* left: 10% !important; */
     }
 }
 

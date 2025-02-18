@@ -216,6 +216,7 @@ img {
   width: 100%;
   height: -webkit-fill-available;
   height: -moz-available;
+  max-height: 100vh;
 }
 
 svg:not(:root) {
@@ -11477,8 +11478,8 @@ textarea.form-control {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 18px;
+  line-height: 22px;
   color: #000;
   margin: 40px 0px;
   text-align: initial;
@@ -11689,8 +11690,8 @@ textarea.form-control {
   font-family: "Montserrat" !important;
     font-style: normal !important;
     font-weight: 400 !important;
-    font-size: 12px !important ;
-    line-height: 15px!important;
+    font-size: 16px !important ;
+    line-height: 20px!important;
     color: #000 !important ;
     margin: 40px 20px !important;
     /* text-align: initial !important; */
@@ -12106,7 +12107,7 @@ textarea.form-control {
   padding-bottom: 280px;
 }
 .banner-home1 .innerfirstrow .innerdatarow {
-  width: 385px;
+  width: 405px;
 }
 .banner-home1 .imglastcolum {
   width: 493px;

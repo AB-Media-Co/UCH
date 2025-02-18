@@ -451,7 +451,8 @@ px
 
 @media only screen and (max-width: 1920px) {
   .about-banner {
-    background-image: url("../images/bannerimg.svg");
+    /* background-image: url("../images/bannerimg.svg"); */
+    background-image: url("../images/cp.webp");
     background-size: cover;
     position: relative;
   }
@@ -459,7 +460,8 @@ px
 
 @media only screen and (max-width: 600px) {
   .about-banner {
-    background-image: url(../images/bannerimg.svg);
+    /* background-image: url(../images/bannerimg.svg); */
+    background-image: url(../images/cp.webp);
     background-size: cover;
     position: relative;
     min-height: 35vh;
@@ -602,9 +604,9 @@ px
 @media only screen and (max-width: 1920px) {
   .sinceyear .left .content p {
     padding-bottom: 20px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 14.63px;
+    line-height: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     margin: 0;
@@ -626,7 +628,7 @@ px
     padding-bottom: 20px;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14.63px;
+    line-height: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     margin: 0;
@@ -635,7 +637,7 @@ px
 }
 
 .sinceyear .left .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -722,10 +724,10 @@ px
 .experience .experience-left-sect .content p {
   padding-bottom: 10px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .experience .experience-right-sect {
@@ -806,7 +808,7 @@ px
 
   .left {
     width: 100%;
-    height: 313px;
+    height: 270px;
   }
 
   .right {
@@ -1233,15 +1235,15 @@ px
 
 .startyourday .left .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .startyourday .left .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -1300,15 +1302,15 @@ px
 
 .businessmeeting .right .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .businessmeeting .right .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -1381,15 +1383,15 @@ px
 
 .laidbacklunch .left .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .laidbacklunch .left .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -1487,15 +1489,15 @@ px
 
 .teasec .tea-wrapper .right .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .teasec .tea-wrapper .right .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -1549,15 +1551,15 @@ px
 
 .englishtea-wrapper .left .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .englishtea-wrapper .left .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -1616,15 +1618,15 @@ px
 
 .cocktail-sec .right .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .cocktail-sec .right .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -1678,7 +1680,7 @@ px
   padding-right: 40px;
   padding-bottom: 80px;
   position: relative;
-  top: 90px;
+  /* top: 90px; */
 
 }
 
@@ -1689,15 +1691,15 @@ px
 
 .supper-sec .left .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .supper-sec .left .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -1756,15 +1758,15 @@ px
 
 .dinner-sec .right .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .dinner-sec .right .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -2340,16 +2342,16 @@ px
 .dussera .left .content p {
   padding-bottom: 20px;
   padding-top: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 22px;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
 }
 
 .dussera .left .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -2439,9 +2441,9 @@ px
 
 .diwali .left .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 22px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
   margin: 0;
@@ -2449,7 +2451,7 @@ px
 }
 
 .diwali .left .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
@@ -2580,16 +2582,16 @@ px
 
 .accolades .acc-wrapper .right .content p {
   padding-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 14.63px;
+  line-height: 22px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
   padding-top: 40px;
 }
 
 .accolades .acc-wrapper .right .content p span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
 }

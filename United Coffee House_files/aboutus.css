@@ -657,7 +657,7 @@ hr {
   /* experience style */
   .experience-banner{
     
-    background-image: url("../images/experience/experience-banner.png");
+    background-image: url("../images/experience/experience-banner.webp");
     background-size: cover;
     position: relative;
     justify-content: center;

@@ -620,10 +620,10 @@ hr {
   }
 }
 
-.fadeInDown {
+/* .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-}
+} */
 
 @-webkit-keyframes fadeInDown {
   0% {

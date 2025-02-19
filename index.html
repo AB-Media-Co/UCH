@@ -235,15 +235,19 @@
 
     .loader-video {
       width: auto;
-      height: 100%;
-      /* or position absolutely if you want a full-screen loader */
+      height: 100vh;
+    }
+    .loader-video .video {
+     display: none !important;;
     }
 
     @media(max-width:767px) {
       .loader-video {
         width: auto;
         height: 15rem;
-        /* or position absolutely if you want a full-screen loader */
+      }
+      .loader-video  .webm {
+       display: none !important;
       }
 
     }
@@ -482,7 +486,8 @@
 
         <video class="loader-video" autoplay muted loop playsinline preload="auto">
           <!-- <source src="./images/destop_animation.webm" type="video/webm" /> -->
-          <source src="./images/destop_animation.mp4" type="video/mp4" />
+          <source src="./images/destop_animation.mp4" type="video/mp4" class="video" />
+          <source src="./images/destop_animation.webm" type="video/webm" class="webm" />
           <!-- Your browser does not support the video tag. -->
         </video>
       </div>

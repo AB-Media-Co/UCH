@@ -519,7 +519,7 @@ hr {
   display: block;
 }
 
-.animate {
+/* .animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
@@ -570,9 +570,9 @@ hr {
   -webkit-animation-delay: 7s;
   -moz-animation-delay: 7s;
   animation-delay: 7s;
-}
+} */
 
-.eight {
+/* .eight {
   -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   animation-delay: 8s;
@@ -594,7 +594,7 @@ hr {
   -webkit-animation-delay: 11s;
   -moz-animation-delay: 11s;
   animation-delay: 11s;
-}
+} */
 
 .bounce-in {
   animation: bounce-in 2s 6s ease;

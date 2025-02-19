@@ -823,7 +823,7 @@ px
   display: block;
 }
 
-.animate {
+/* .animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
@@ -898,7 +898,7 @@ px
   -webkit-animation-delay: 11s;
   -moz-animation-delay: 11s;
   animation-delay: 11s;
-}
+} */
 
 .bounce-in {
   animation: bounce-in 2s 6s ease;

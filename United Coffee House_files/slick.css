@@ -85,6 +85,7 @@
     width: 100%;
     height: -moz-available;
     object-fit: cover;
+    object-position: center;
 }
 
 .slick-slide.slick-loading img {

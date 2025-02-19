@@ -116,10 +116,22 @@
       padding-bottom: 0rem;
     }
 
+
     @media(max-width:767px) {
       .menu {
         padding-bottom: 0rem !important;
       }
+
+      .container-menu {
+        width: 100% !important;
+      }
+    }
+
+    @media(min-width:767px) {
+      .container-menu {
+        width: 950px !important;
+      }
+
     }
   </style>
 
@@ -308,32 +320,32 @@
           <div class="col-lg-8">
             <div class="row menu">
               <div class="col-lg-4 ">
-                <div class="history-image">
+                <div class="history-image reccomended-img">
                   <img src="images/menu/DSC_6024 (1).jpg" width="100%;" style="height: 280px !important;">
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="history-image">
+                <div class="history-image reccomended-img">
                   <img src="images/menu/DSC_6028.jpg" width="100%;" style="height: 280px !important;">
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="history-image">
+                <div class="history-image reccomended-img">
                   <img src="images/menu//Capture0023-6512.jpg" width="100%;" style="height: 280px !important;">
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="history-image">
+                <div class="history-image reccomended-img">
                   <img src="images/menu/Capture0009-9890 (1).webp" width="100%;" style="height: 280px !important;">
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="history-image">
+                <div class="history-image reccomended-img">
                   <img src="images/menu/Capture0039-9850 (2).webp" width="100%;" style="height: 280px !important;">
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="history-image">
+                <div class="history-image reccomended-img">
                   <img src="images/menu/DSC_8283 copy (1).webp" width="100%;" style="height: 280px !important;">
                 </div>
               </div>
@@ -351,10 +363,7 @@
     <section class="animate fadeInUp two margin_bottom_exp"
       style="background-image: url(images/menu/white-with-blank.png);background-size: cover;padding-bottom: 0px;margin-top:50px; padding-top:50px">
 
-      <div class="container">
-
-
-
+      <div class="container container-menu">
         <div class="row">
           <div class="col-lg-12">
             <div class="row menu my_menu">
@@ -953,9 +962,17 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
+    .reccomended-img {
+      padding-top: 35px !important;
+    }
+
     @media only screen and (max-width: 600px) {
       .history-image {
         padding: 20px;
+      }
+
+      .reccomended-img {
+        padding-top: 0;
       }
 
       .moon {

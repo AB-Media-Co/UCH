@@ -90,6 +90,35 @@
 
 
   }
+
+  .delivery-icons {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: start;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .icon-item {
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .icon-item:hover {
+    transform: scale(1.05);
+  }
+
+  .icon-item img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .p1 {
+    font-size: 16px;
+    margin: 0;
+  }
 </style>
 
 <body>
@@ -280,7 +309,7 @@
       <div class="container" style="margin-top: 80px;">
         <div class="row">
           <div class="col-lg-5" style="padding: 40px;position: relative;left: 80px;top:20px;z-index: 9;">
-            <img src="images/coffee.png" width="100%;" >
+            <img src="images/coffee.png" width="100%;">
           </div>
           <div class="col-lg-7" style="background: #fff;position: relative;right: 85px;">
             <h2 class="second-title" style="padding-top: 80px;">Order
@@ -308,7 +337,7 @@
       <div class="row iped mobile_iped">
         <div class="col-lg-6 col-12 startyourday1">
           <div class="animate fadeInRight three pt-4">
-            <img src="images/coffee.png" width="100%;" style="height: 260px !important;" >
+            <img src="images/coffee.png" width="100%;" style="height: 260px !important;">
           </div>
         </div>
         <div class="col-lg-6 col-12 startyourday2">
@@ -337,48 +366,45 @@
             <h2 class="second-title" style="margin-left:-249px;margin-top: 65px;">DELIVERY HANDLES</h2>
             <hr style="margin-left: 84px;margin-top: 32px;margin-bottom: 43px;">
             <div class="container">
-              <div class="row">
+
+              <div class="delivery-icons">
+                <div class="icon-item">
+                  <img src="images/self-pick.png" alt="Self Pick Up" width="70" height="70">
+                  <p class="p1" style="color:#d0b468;"><b>Self Pick Up</b></p>
+                </div>
+
+                <div class="icon-item">
+                  <img src="images/swiggy.png" alt="Swiggy" width="70" height="70">
+                  <p class="p1" style="color:#ff7a01;"><b>SWIGGY</b></p>
+                </div>
+
+                <div class="icon-item">
+                  <img src="images/zomato.png" alt="Zomato" width="70" height="70">
+                  <p class="p1" style="color:#f40331;"><b>Zomato</b></p>
+                </div>
+              </div>
+
+              <!-- <div class="row">
                 <div class="col-5 text-center">
                   <div class="row ">
                     <div class="col-1"></div>
-                    <div class="col-4">
-                      <a href="">
-                        <div class="">
-                          <img src="images/self-pick.png" width="70" height="70" class="">
-                          <p class="p1" style="color:#d0b468;"><b>Self Pick Up</b></p>
-                        </div>
-                      </a>
-
-                      <a href="">
-                        <div style="margin-top: 50px;">
-                          <img src="images/swiggy.png" width="70" height="70">
-                          <p class="p1" style="color:#ff7a01;"><b>SWIGGY</b></p>
-                        </div>
-                      </a>
-                    </div>
+                   
 
                     <div class="col-4">
 
-                      <!-- <a href="">
+                      <a href="">
                         <div>
                           <img src="images/uds.png" width="70" height="70">
                           <p class="p1" style="color:#485f8b;"><b>Special offer from</b></p>
                           <p class="p1" style="color:#485f8b; margin-top: -24px !important;"><b>4 P.M To 7 P.M</b></p>
                         </div>
-                      </a> -->
-
-                      <a href="">
-                        <div style="margin-top:35px;">
-                          <img src="images/zomato.png" width="70" height="70">
-                          <p class="p1" style="color:#f40331;"><b>zomato</b></p>
-                        </div><a>
-
+                      </a>
                     </div>
                     <div class="col-1"></div>
                   </div>
                 </div>
                 <div class="col-6"></div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-" style="position: relative;
@@ -400,40 +426,61 @@
         <div class="col-lg-6 col-12 startyourday2">
           <div class="content animate fadeInLeft three">
             <h2 class="second-title">DELIVERY HANDLES</h2>
+
             <hr>
-            <div class="row logoimg">
+
+            <div class="container">
+
+              <div class="delivery-icons">
+                <div class="icon-item">
+                  <img src="images/self-pick.png" alt="Self Pick Up" width="70" height="70">
+                  <p class="p1" style="color:#d0b468;"><b>Self Pick Up</b></p>
+                </div>
+
+                <div class="icon-item">
+                  <img src="images/swiggy.png" alt="Swiggy" width="70" height="70">
+                  <p class="p1" style="color:#ff7a01;"><b>SWIGGY</b></p>
+                </div>
+
+                <div class="icon-item">
+                  <img src="images/zomato.png" alt="Zomato" width="70" height="70">
+                  <p class="p1" style="color:#f40331;"><b>Zomato</b></p>
+                </div>
+              </div>
+
+              <!-- <div class="row logoimg">
               <div class="col-6">
                 <div class="cercil-card text-center">
                   <img src="images/self-pick.png" width="70" height="70">
                   <p class="p1" style="color:#d0b468;"><b>Self Pick Up</b></p>
                 </div>
               </div>
-              <!-- <div class="col-6">
+              <div class="col-6">
                 <div class="cercil-card text-center">
                   <img src="images/uds.png" width="70" height="70">
                   <p class="p1" style="color:#485f8b;"><b>Special offer from</b></p>
                   <p class="p1" style="color:#485f8b; margin-top: -25px;"><b>4 P.M To 7 P.M</b></p>
                 </div>
+              </div>
+            </div>
+              <div class="row logoimg" style="padding-bottom: 20px;">
+                <div class="col-6">
+                  <div class="cercil-card text-center">
+                    <img src="images/swiggy.png" width="70" height="70">
+                    <p class="p1" style="color:#ff7a01;"><b>SWIGGY</b></p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="cercil-card text-center">
+                    <img src="images/zomato.png" width="70" height="70">
+                    <p class="p1" style="color:#f40331"><b>zomato</b></p>
+                  </div>
+                </div>
               </div> -->
-            </div>
-            <div class="row logoimg" style="padding-bottom: 20px;">
-              <div class="col-6">
-                <div class="cercil-card text-center">
-                  <img src="images/swiggy.png" width="70" height="70">
-                  <p class="p1" style="color:#ff7a01;"><b>SWIGGY</b></p>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="cercil-card text-center">
-                  <img src="images/zomato.png" width="70" height="70">
-                  <p class="p1" style="color:#f40331"><b>zomato</b></p>
-                </div>
-              </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
     </section>
 
     <!--<section class="sinceyear sinceyear-new animate fadeInUp three">

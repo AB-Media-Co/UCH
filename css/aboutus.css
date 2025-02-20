@@ -732,7 +732,7 @@ px
 
 .experience .experience-right-sect {
   width: 43%;
-  min-height: 552px;
+  /* min-height: 552px; */
   background: url(../images/imgss.png) no-repeat center;
 
   background-size: cover;

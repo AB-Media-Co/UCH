@@ -460,19 +460,22 @@ px
 @media only screen and (max-width: 1920px) {
   .about-banner {
     /* background-image: url("../images/bannerimg.svg"); */
-    background-image: url("../images/cp.webp");
+    /* background-image: url("../images/cp.webp"); */
+    background-image: url("../images/oldCp.webp");
     background-size: cover;
     position: relative;
+    background-position: center;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .about-banner {
     /* background-image: url(../images/bannerimg.svg); */
-    background-image: url(../images/cp.webp);
+    background-image: url("../images/oldCp.webp");
     background-size: cover;
     position: relative;
     min-height: 35vh;
+    background-position: center;
   }
 }
 

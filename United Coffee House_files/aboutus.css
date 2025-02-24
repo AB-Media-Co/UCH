@@ -265,10 +265,12 @@ hr {
 
 .about-banner {
   /* background-image: url("../images/bannerimg.svg"); */
-  background-image: url("../images/cp.webp");
+  /* background-image: url("../images/cp.webp"); */
+  background-image: url("../images/oldCp.webp");
   background-size: cover;
 
   position: relative;
+  background-position: center;
 }
 
 .banner-content-area {

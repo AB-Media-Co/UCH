@@ -286,7 +286,7 @@ hr {
 .banner-content-area p {
 
   font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #fff;
 }
 
@@ -430,7 +430,7 @@ hr {
 .experience .experience-right-sect {
   width: 43%;
   min-height: 552px;
-  background: url(../images/imgss.png) no-repeat center;
+  /* background: url(../images/imgss.png) no-repeat center; */
   background-size: cover;
   margin-left: -3%;
   display: flex;
@@ -757,7 +757,7 @@ hr {
 /* experience style */
 .experience-banner {
 
-  background-image: url("../images/experience/experience-banner.webp");
+  background-image: url("../images/NewImages/CP\ interiors\ \(11\).webp");
   background-size: cover;
   position: relative;
   justify-content: center;

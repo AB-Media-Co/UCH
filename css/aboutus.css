@@ -362,6 +362,12 @@ px
     padding-top: 16px;
   }
 }
+@media (max-width: 600px) {
+  .second-title {
+
+    padding-top: 87px;
+  }
+}
 
 @media (max-width: 600px) {
   .second-light-title {
@@ -423,7 +429,7 @@ px
 
 @media only screen and (max-width: 600px) {
   .order-banner1 {
-    background-image: url(../images/order-banner.png");
+    background-image: url("../images/order-banner.png");
     background-size: cover;
     position: relative;
     min-height: 35vh;
@@ -433,19 +439,21 @@ px
 
 @media only screen and (max-width: 1920px) {
   .order-banner {
-    background-image: url("../images/resevation.png");
+    background-image: url("../images/NewImages/SHRE8675.webp");
     background-size: cover;
     min-height: 100vh;
     position: relative;
+    background-position: bottom;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .order-banner {
-    background-image: url("../images/resevation.png");
+    background-image: url("../images/NewImages/SHRE8675.webp");
     background-size: cover;
     position: relative;
     min-height: 35vh;
+    background-position: bottom;
   }
 }
 
@@ -489,7 +497,7 @@ px
 @media only screen and (max-width: 1920px) {
   .banner-content-area p {
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
   }
 }
@@ -497,7 +505,7 @@ px
 @media only screen and (max-width: 600px) {
   .banner-content-area p {
     font-family: 'Playfair Display', serif;
-    font-size: 13px;
+    font-size: 24px;
     color: #fff
   }
 }
@@ -733,7 +741,7 @@ px
 .experience .experience-right-sect {
   width: 43%;
   /* min-height: 552px; */
-  background: url(../images/imgss.png) no-repeat center;
+  /* background: url(../images/imgss.png) no-repeat center; */
 
   background-size: cover;
   margin-left: -3%;
@@ -1062,7 +1070,7 @@ px
 @media only screen and (max-width: 1920px) {
   .experience-banner {
 
-    background-image: url("../images/experience/experience-banner.webp");
+    background-image: url("../images/NewImages/CP\ interiors\ \(11\).webp");
     background-size: cover;
     position: relative;
     justify-content: center;
@@ -1081,7 +1089,7 @@ px
 
   .experience-banner {
 
-    background-image: url("../images/experience/experience-banner.webp");
+    background-image: url("../images/NewImages/CP\ interiors\ \(11\).webp");
     background-size: cover;
     position: relative;
     justify-content: center;
@@ -1263,7 +1271,7 @@ px
 }
 
 .businessmeeting .left {
-  height: 400px;
+  /* height: 400px; */
   width: 50%;
   margin-right: -4%;
   margin-top: 0;
@@ -1516,7 +1524,7 @@ px
   width: 50%;
   /* margin-left: -30%; */
 
-  height: 543px;
+  /* height: 543px; */
   display: flex;
   /* height: 95%; */
   /* align-items: center; */

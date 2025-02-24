@@ -71,7 +71,9 @@ body {
 }
 
 .history-image {
-  height: 360px;
+  height: 460px;
+  /* width: 360px;
+  margin-right: 0100px */
 }
 
 [tabindex="-1"]:focus {

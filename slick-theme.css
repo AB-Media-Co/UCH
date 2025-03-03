@@ -149,6 +149,17 @@
     width: 40px;
     transition: opacity 0.3s, background-color 0.3s, transform 0.3s;
 }
+
+@media screen and (max-width:700px) {
+
+    .your-class .slick-dots li {
+
+        width: 22px   !important;
+
+    }
+}
+
+
 .your-class .slick-dots li>button
 {
 

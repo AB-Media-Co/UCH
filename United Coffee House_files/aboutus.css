@@ -822,6 +822,8 @@ hr {
 .startyourday .right img {
   width: 100%;
   display: block;
+
+  /* object-fit: contain; */
 }
 
 .startyourday .left {
@@ -848,6 +850,8 @@ hr {
   line-height: 14.63px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
+  text-align: justify;
+
 }
 
 .startyourday .left .content p span {
@@ -913,6 +917,7 @@ hr {
   line-height: 14.63px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
+  text-align: justify;
 }
 
 .businessmeeting .right .content p span {
@@ -992,6 +997,7 @@ hr {
   line-height: 14.63px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
+  text-align: justify;
 }
 
 .laidbacklunch .left .content p span {

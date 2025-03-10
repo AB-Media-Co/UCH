@@ -439,21 +439,43 @@ px
 
 @media only screen and (max-width: 1920px) {
   .order-banner {
-    background-image: url("../images/NewImages/CP\ interiors\ \(13\).webp");
+    background-image: url("../images/NewImages/final\ cp\ table\ book.jpg");
     background-size: cover;
     min-height: 100vh;
     position: relative;
     background-position: bottom;
   }
+
+  .order-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .order-banner {
-    background-image: url("../images/NewImages/CP\ interiors\ \(13\).webp");
+    background-image: url("../images/NewImages/final\ cp\ table\ book.jpg");
     background-size: cover;
     position: relative;
     min-height: 35vh;
     background-position: bottom;
+  }
+
+  .order-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1;
   }
 }
 
@@ -622,6 +644,7 @@ px
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     margin: 0;
+    text-align: justify;
   }
 }
 @media only screen and (max-width: 1180px) {
@@ -645,6 +668,7 @@ px
     color: #000000;
     margin: 0;
     padding-right: 70px;
+    text-align: justify;
   }
 }
 

@@ -11374,6 +11374,7 @@ textarea.form-control {
   line-height: 33px;
   text-transform: capitalize;
   color: #000;
+  text-align: center;
 }
 
 .centertext > h1 small {
@@ -11696,6 +11697,7 @@ textarea.form-control {
     line-height: 20px!important;
     color: #000 !important ;
     margin: 40px 20px !important;
+    text-align: justify;
     /* text-align: initial !important; */
 }
 /*  */

@@ -127,7 +127,8 @@
       .menu-header-Carousel {
         height: 300px !important;
       }
-      .bottomImgMenu{
+
+      .bottomImgMenu {
         display: block;
         margin-top: 20px;
       }
@@ -137,10 +138,41 @@
       .container-menu {
         width: 950px !important;
       }
-      .bottomImgMenu{
+
+      .bottomImgMenu {
         display: none;
       }
 
+    }
+
+    .wrapper-main {
+      position: relative;
+    }
+
+    .dishes {
+      position: absolute;
+
+     
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Black background with 50% opacity */
+      color: white;
+      /* Ensure text is visible against the dark background */
+      padding: 8px 16px;
+      /* Added padding for better appearance */
+    }
+
+    @media(min-width:610px) {
+      .dishes {
+        bottom: 10%;
+        right: 42px;
+      }
+    }
+
+    @media(max-width:600px) {
+      .dishes {
+        top: 0;
+        right: 10px;
+      }
     }
   </style>
 </head>
@@ -287,12 +319,11 @@
             style="object-fit: cover !important; object-position: center;" loading="lazy">
           <!-- <div class="Dish_name">  <h2>Chicken Pepper Steak </h2> <hr style="border-bottom: 2px solid white; width: 50%;"> </div> -->
         </div>
-        <div class="col-lg-12">
-          <!-- <img src="images/MenuSlider/Sliders/_E5A6131-Edit.webp" width="100%;"> -->
+        <!-- <div class="col-lg-12">
           <img src="images/NewImages/MenuCarousel/4 Arabic platter.jpg" width="100%;" class="menu-header-Carousel"
             style="object-fit: cover !important; object-position: center;" loading="lazy">
-          <!-- <div class="Dish_name">  <h2>Chicken Pepper Steak </h2> <hr style="border-bottom: 2px solid white; width: 50%;"> </div> -->
-        </div>
+          <div class="Dish_name">  <h2>Chicken Pepper Steak </h2> <hr style="border-bottom: 2px solid white; width: 50%;"> </div>
+        </div> -->
         <div class="col-lg-12">
           <!-- <img src="images/MenuSlider/Sliders/_E5A6131-Edit.webp" width="100%;"> -->
           <img src="images/NewImages/MenuCarousel/5 sea food trilogy.jpg" width="100%;" class="menu-header-Carousel"
@@ -314,13 +345,13 @@
         <div class="col-lg-12">
           <!-- <img src="images/MenuSlider/Sliders/_E5A6297-Edit.webp" width="100%;"> -->
           <img src="images/NewImages/MenuCarousel/8 Chicken pepper steak.jpg" width="100%;" class="menu-header-Carousel"
-            style="object-fit: cover !important; object-position: top;"  loading="lazy">
+            style="object-fit: cover !important; object-position: top;" loading="lazy">
           <!-- <div class="Dish_name">  <h2>Kaale Zaitoon Ka Murg Tikka </h2> <hr style="border-bottom: 2px solid white; width: 50%;"></div> -->
         </div>
         <div class="col-lg-12">
           <!-- <img src="images/MenuSlider/Sliders/_E5A6322-Edit.webp" width="100%;"> -->
-          <img src="images/NewImages/MenuCarousel/9 RACE COURSE CHEESE SOUFFle.jpg" width="100%;" class="menu-header-Carousel"
-            style="object-fit: cover !important; object-position: center ;" loading="lazy">
+          <img src="images/NewImages/MenuCarousel/9 RACE COURSE CHEESE SOUFFle.jpg" width="100%;"
+            class="menu-header-Carousel" style="object-fit: cover !important; object-position: center ;" loading="lazy">
           <!-- <div class="Dish_name">  <h2>Beer Battered Jalapeno Infused Potato</h2> <hr style="border-bottom: 2px solid white; width: 50%;"></div> -->
         </div>
         <div class="col-lg-12">
@@ -338,6 +369,9 @@
 
       </div>
     </div>
+    <!-- <div class="dishes">
+      UCH Signature Dishes
+    </div> -->
   </div>
 
   <!-- <section class=" four">
@@ -1047,6 +1081,7 @@
       /* padding: 20px; */
       padding-bottom: 20px;
     }
+
     .history-image img {
       /* padding: 20px; */
       width: auto !important;

@@ -59,19 +59,45 @@
   <style>
     .Dish_name {
       position: absolute;
-      bottom: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
       background-color: #00000062;
-      padding: 20px;
-
-      border-radius: 20px;
+      border-radius: 8px;
       text-align: center;
+      font-family: Pinyon Script !important;
 
     }
 
     .Dish_name h2 {
       color: #fff;
+      /* font-family: Pinyon Script !important; */
+
+    }
+
+    @media screen and (min-width:640px) {
+      .Dish_name {
+        bottom: -6%  ;
+        padding: 20px;
+      }
+      .Dish_name h2 {
+        font-size: 20px;
+      }
+
+    }
+
+    @media screen and (max-width:640px) {
+      .Dish_name h2 {
+        font-size: 12px;
+      }
+
+      .Dish_name {
+        bottom: 0%;
+        padding: 8px 25px;
+      }
+
+      .dishesHr {
+        margin: 3px !important;
+      }
     }
 
     .menu {
@@ -151,14 +177,11 @@
 
     .dishes {
       position: absolute;
-
-     
+      bottom: 10%;
+      right: 42px;
       background-color: rgba(0, 0, 0, 0.5);
-      /* Black background with 50% opacity */
       color: white;
-      /* Ensure text is visible against the dark background */
       padding: 8px 16px;
-      /* Added padding for better appearance */
     }
 
     @media(min-width:610px) {
@@ -168,12 +191,12 @@
       }
     }
 
-    @media(max-width:600px) {
+    /* @media(max-width:600px) {
       .dishes {
         top: 0;
         right: 10px;
       }
-    }
+    } */
   </style>
 </head>
 
@@ -369,9 +392,10 @@
 
       </div>
     </div>
-    <!-- <div class="dishes">
-      UCH Signature Dishes
-    </div> -->
+    <div class="Dish_name">
+      <h2>Our Signature Dishes</h2>
+      <hr class="dishesHr" style="border-bottom: 2px solid white; width: 100%; margin: 10px;">
+    </div>
   </div>
 
   <!-- <section class=" four">

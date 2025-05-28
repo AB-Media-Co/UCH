@@ -339,6 +339,35 @@ px
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
 }
+.second-title1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #000000;
+  /* padding-bottom: 30px; */
+  /* margin-bottom: 20px; */
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1920px) {
+  .second-title1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: #000000;
+    /* padding-bottom: 30px; */
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .second-title1 {
+
+    padding-top: 27px;
+  }
+}
 
 .second-title {
   font-family: 'Playfair Display', serif;
@@ -359,7 +388,7 @@ px
     text-align: center;
     font-weight: 400;
     text-transform: uppercase;
-    padding-top: 16px;
+    padding-top: 3px;
   }
 }
 @media (max-width: 600px) {

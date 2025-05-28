@@ -11975,10 +11975,12 @@ textarea.form-control {
 }
 
 .bottombanner {
+  font-family: 'Playfair Display', serif;
   width: 100%;
   float: none;
   margin: 0px;
   height: 483px;
+  text-align: justify !important;
 }
 
 .bottombanner > img {
@@ -12033,7 +12035,7 @@ textarea.form-control {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 17px;
   color: #000;
 }

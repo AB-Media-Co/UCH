@@ -585,12 +585,12 @@ px
 @media only screen and (max-width: 1920px) {
   .sinceyear .right {
     width: 49%;
-    height: 856px;
+    height: 683px;
     margin-left: -30%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 
   }
 }

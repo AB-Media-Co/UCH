@@ -540,7 +540,7 @@ mark,
 @media(max-width:767px){
    .logosize{
         /* display:none */
-        display: block;
+        /* display: block; */
         top:16px;
         height: 39px;
    }
@@ -3778,7 +3778,7 @@ input[type=button].btn-block {
   }
 
   .your-class .slick-dots{
-    bottom: 3% !important;
+    bottom: 25% !important;
   }
   
 

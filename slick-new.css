@@ -272,7 +272,7 @@
         background-color: #d8d8d8e5;
         opacity: 0.5;
         margin: 6px;
-        height: 5px;
+        height: 20px;
         width: 3px;
         transition: opacity 0.3s, background-color 0.3s, transform 0.3s;
 

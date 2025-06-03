@@ -3778,7 +3778,8 @@ input[type=button].btn-block {
   }
 
   .your-class .slick-dots{
-    bottom: 12% !important;
+    bottom: 2% !important;
+
   }
   
 

@@ -119,6 +119,39 @@
       animation-play-state: paused !important;
     }
 
+
+
+    .image-containerab {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-containerab img {
+      display: block;
+      width: 100%;
+      height: auto;
+      z-index: 1;
+    }
+
+    .overlay-textab {
+      position: absolute;
+      width: 96%;
+      text-align: center;
+      bottom: 0;
+            font-family: 'Montserrat', sans-serif;
+
+
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.6);
+      /* semi-transparent background */
+      color: white;
+      padding: 5px 10px;
+      font-size: 20px;
+      /* font-weight: bold; */
+      border-radius: 5px;
+    }
+
+
     ;
   </style>
   <script type="text/javascript" charset="UTF-8" src="./United Coffee House_files/common.js.download"></script>
@@ -226,23 +259,29 @@
             style="object-fit: cover !important; object-position: center;" loading="lazy" />
         </div>
         <div class="col-lg-12">
-        <img src="images/NewImages/AboutUs/2.jpg" width="100%;" class="menu-header-Carousel" style="object-fit: cover !important; object-position: center;" loading="lazy"/>
-      </div>
-      <div class="col-lg-12">
-        <img src="images/NewImages/AboutUs/3.jpg" width="100%;" class="menu-header-Carousel" style="object-fit: cover !important; object-position: center;" loading="lazy"/>
-      </div>
-      <div class="col-lg-12">
-        <img src="images/NewImages/AboutUs/4 (2).jpg" width="100%;" class="menu-header-Carousel" style="object-fit: cover !important; object-position: center;" loading="lazy"/>
-      </div>
-      <div class="col-lg-12">
-        <img src="images/NewImages/AboutUs/5.jpg" width="100%;" class="menu-header-Carousel" style="object-fit: cover !important; object-position: center;" loading="lazy"/>
-      </div>
-      <div class="col-lg-12">
-        <img src="images/NewImages/AboutUs/6.jpg" width="100%;" class="menu-header-Carousel" style="object-fit: cover !important;" loading="lazy"/>
-      </div>
-      <div class="col-lg-12">
-        <img src="images/NewImages/AboutUs/7.jpg" width="100%;" class="menu-header-Carousel" style="object-fit: cover !important;" loading="lazy"/>
-      </div>
+          <img src="images/NewImages/AboutUs/2.jpg" width="100%;" class="menu-header-Carousel"
+            style="object-fit: cover !important; object-position: center;" loading="lazy" />
+        </div>
+        <div class="col-lg-12">
+          <img src="images/NewImages/AboutUs/3.jpg" width="100%;" class="menu-header-Carousel"
+            style="object-fit: cover !important; object-position: center;" loading="lazy" />
+        </div>
+        <div class="col-lg-12">
+          <img src="images/NewImages/AboutUs/4 (2).jpg" width="100%;" class="menu-header-Carousel"
+            style="object-fit: cover !important; object-position: center;" loading="lazy" />
+        </div>
+        <div class="col-lg-12">
+          <img src="images/NewImages/AboutUs/5.jpg" width="100%;" class="menu-header-Carousel"
+            style="object-fit: cover !important; object-position: center;" loading="lazy" />
+        </div>
+        <div class="col-lg-12">
+          <img src="images/NewImages/AboutUs/6.jpg" width="100%;" class="menu-header-Carousel"
+            style="object-fit: cover !important;" loading="lazy" />
+        </div>
+        <div class="col-lg-12">
+          <img src="images/NewImages/AboutUs/7.jpg" width="100%;" class="menu-header-Carousel"
+            style="object-fit: cover !important;" loading="lazy" />
+        </div>
       </div>
     </div>
   </div>
@@ -334,20 +373,6 @@
   <!-- Floating Button End -->
 
 
-  <!-- <div class="wrapper-main">
-    <div class="cursor"></div>
-    <section class="about-banner ">
-      <div class="container">
-        <div class="banner-content-area">
-          <p class="animate fadeIn one" style="text-shadow: 4px 5px 8px rgba(104, 95, 84, 1);">One of the oldest, first
-            and most loved restaurants of Delhi in Connaught Place
-          </p>
-        </div>
-      </div>
-
-    </section> -->
-
-
   <section class="sinceyear animate fadeInUp two">
     <div class="container">
       <div class="wrapper Laptop_View">
@@ -368,7 +393,7 @@
               unique and memorable dining experience at United Coffee House in Connaught Place, New Delhi.
 
             </p>
-            <br> 
+            <br>
             <h2 class="second-title1">Legacy</h2>
             <hr>
             <p>
@@ -384,13 +409,14 @@
               At UCH, memory is a powerful thing. When we look eight decades back, we are filled with unforgettable
               moments and an unparalleled sense of pride that brought us to this stage.
             </p>
-
-
           </div>
         </div>
-        <div class="right abu">
-          <img src="images/NewImages/FoundersPicture/Lala Hans Raj Kalra_founder.jpg" loading="lazy">
+        <div class="right abu image-containerab">
+          <img src="images/NewImages/FoundersPicture/Lala Hans Raj Kalra_founder.jpg" loading="lazy"
+            alt="Lala Hansraj Kalra">
+          <div class="overlay-textab">Lala Hansraj Kalra</div>
         </div>
+
 
       </div>
     </div>
@@ -513,13 +539,10 @@
               Additionally, his keen understanding of the evolving dining landscape has led him to introduce United
               Coffee House Rewind, a concept catering to the contemporary generation's desire for casual dining
               experiences.
-<br>
+              <br>
               With Mr. Kalra at the helm, United Coffee House continues to shine as an unrivalled destination for
               culinary delights, where the legacy of the past harmoniously blends with the spirit of the present.
             </p>
-
-
-
 
           </div>
         </div>
@@ -655,10 +678,10 @@
   <div class="footerrow">
     <div class="innerfooter">
       <ul class="menu-footer">
-        <li><a href="/Accolades.html">Accolades</a></li>
+        <!-- <li><a href="/Accolades.html">Accolades</a></li> -->
         <li><a href="/order.html">Online Order </a></li>
         <li><a href="/booking.html">Book A Table</a></li>
-        <li><a href="#">Careers</a></li>
+        <li><a href="/careerpage.html">Careers</a></li>
         <li><a href="/aboutus.html">About Us</a></li>
         <!-- <li><a href="#">Privacy Policy</a></li> -->
       </ul>
@@ -686,14 +709,14 @@
       <div class="row ">
         <div class="col-4">
           <ul>
-            <li><a class="ul" href="/Accolades.html">Accolades</a></li>
+            <!-- <li><a class="ul" href="/Accolades.html">Accolades</a></li> -->
             <li><a class="ul" href="/order.html">Online Order </a></li>
             <li><a class="ul" href="/booking.html">Book A Table</a></li>
           </ul>
         </div>
         <div class="col-5">
           <ul>
-            <li><a class="ul" href="#">Careers</a></li>
+            <li><a class="ul" href="/careerpage.html">Careers</a></li>
             <li><a class="ul" href="/aboutus.html">About Us</a></li>
             <li><a class="ul" href="#">Privacy Policy</a></li>
           </ul>

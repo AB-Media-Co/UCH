@@ -119,51 +119,9 @@
         }
 
 
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
 
         .second-title1 {
             padding-top: 0 !important;
-        }
-
-        .benefit-card {
-            background: #fff;
-            padding: 2rem;
-            /* border-radius: 15px; */
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(77, 35, 21, 0.1);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .benefit-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 3px;
-            background: linear-gradient(90deg, #d0b468, #4d2315);
-            transform: scaleX(0);
-            transition: transform 0.3s ease;
-        }
-
-        .benefit-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .benefit-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 50px rgba(77, 35, 21, 0.15);
         }
 
         .benefit-icon {
@@ -179,16 +137,6 @@
             margin-bottom: 1rem;
         }
 
-        .benefit-description {
-            padding-bottom: 0px;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            font-family: 'Montserrat', sans-serif;
-            color: #000000;
-            margin: 0;
-            text-align: justify;
-        }
 
         .roles-section {
             background: white;
@@ -226,15 +174,18 @@
             color: #4D2315;
         }
 
-        .role-list {
-            list-style: none;
-        }
+
 
         .role-list li {
             padding: 0.5rem 0;
             color: white;
             position: relative;
             padding-left: 1.5rem;
+        }
+
+
+        .role-list {
+            list-style: none;
         }
 
         .role-list li::before {
@@ -327,6 +278,35 @@
             background: rgba(208, 180, 104, 0.1);
             /* border-radius: 50%; */
             animation: float 6s ease-in-out infinite;
+        }
+
+
+
+        .benefits-grid ul {
+            list-style-type: disc;
+            margin: 20px 0;
+        }
+
+        .benefits-grid li {
+            margin-bottom: 15px;
+            font-size: 24px;
+            font-family: 'Playfair Display', serif;
+         
+        }
+
+       
+        .benefits-grid li::before {
+            content: '•';
+            color: #2c3e50;
+            /* position: absolute; */
+            /* left: 0; */
+            font-size: 1.2rem;
+               margin-right: 10px;
+        }
+
+        .benefits-grid strong {
+            color: #2c3e50;
+            font-weight: bold;
         }
 
         @keyframes fadeInUp {
@@ -424,7 +404,7 @@
                 padding: 3rem 0;
             }
 
-            .benefits-grid,
+
             .roles-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
@@ -468,13 +448,13 @@
         /* Touch device optimizations */
         @media (hover: none) and (pointer: coarse) {
 
-            .benefit-card:hover,
+
             .role-category:hover,
             .email-box:hover {
                 transform: none;
             }
 
-            .benefit-card,
+
             .role-category,
             .email-box {
                 transition: none;
@@ -485,7 +465,7 @@
         @media (prefers-contrast: high) {
 
 
-            .benefit-card,
+
             .legacy-section {
                 border: 2px solid #4d2315;
             }
@@ -690,49 +670,17 @@
 
 
             <div style="text-align: center;padding: 20px 0;margin-bottom: 60px;">
-                <h2 class="second-title" style="color:#000">Experience</h2>
+                <h2 class="second-title" style="color:#000">Why Join Us?</h2>
                 <hr style="background: #D0B468;width: 20%;">
             </div>
 
-            <!-- <section class="textitem" style="padding: 0 !important;">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-auto text-center">
-                            <h2 class="text animate fadeInLeft two">
-                                Why Join Us ?
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
             <div class="benefits-grid">
-                <div class="benefit-card">
-                    <h2 class="second-title1">Legacy & Prestige</h2>
-                    <hr>
-                    <p class="benefit-description">Work with an iconic brand in Indian hospitality and be part of our
-                        rich heritage.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <h2 class="second-title1">Career Growth</h2>
-                    <hr>
-                    <p class="benefit-description">Training, mentoring, and real opportunities to advance your
-                        professional journey.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <h2 class="second-title1">People-First Culture</h2>
-                    <hr>
-                    <p class="benefit-description">Respect, teamwork, and a focus on well-being in everything we do.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <h2 class="second-title1">Creative Excellence</h2>
-                    <hr>
-                    <p class="benefit-description">Be part of a team that values passion and precision in culinary arts.
-                    </p>
-                </div>
+                <ul>
+                    <li><strong>Legacy & Prestige:</strong> Work with an iconic brand in Indian hospitality.</li>
+                    <li><strong>Career Growth:</strong> Training, mentoring, and real opportunities to advance.</li>
+                    <li><strong>People-First Culture:</strong> Respect, teamwork, and a focus on well-being.</li>
+                    <li><strong>Creative Excellence:</strong> Be part of a team that values passion and precision.</li>
+                </ul>
             </div>
         </section>
 

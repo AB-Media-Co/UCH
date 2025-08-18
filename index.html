@@ -47,6 +47,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
   </style>
 
+  <link rel="preload" as="image" href="./images/NewImages/HomePageCarousel/ResizeHomeCarousel/1.jpg">
+
+
   <style type="text/css">
     /* Latest code for Loader */
 
@@ -278,7 +281,7 @@
     }
 
     .container {
-      max-width: 90%;
+      max-width: 90% !important;
       margin: 20px auto;
       display: flex;
       flex-direction: column;
@@ -421,13 +424,108 @@
       .mobile-img {
         display: block !important;
       }
+
+      .homeCarousel {
+        margin-top: 10rem !important;
+      }
+    }
+
+    .homeCarousel {
+      margin-top: 16rem;
     }
   </style>
+  <!-- header import start -->
+  <link rel="stylesheet" type="text/css" href="css/header/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/header/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/header/">
+  <link rel="stylesheet" href="css/header/animate.css">
+  <link rel="stylesheet" href="css/header/style.css">
+
+  <!-- header import end -->
 
 </head>
 
 <body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
-  <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar"
+
+
+
+  <header>
+    <div class="top_line"></div>
+    <div class="left_line"></div>
+    <div class="right_line"></div>
+
+    <div class="top_header">
+      <div class="container-fluid">
+        <div class="reservation">
+          <a href="javascript:void(0)">
+            <img alt="" src="images/reservation.svg" class="reservation01">
+            <img alt="" src="images/reservation02.svg" class="reservation02">
+          </a>
+        </div>
+
+        <div class="logo">
+          <a href="/">
+            <img src="images/logo-1.png" height="374" width="559" alt="UCH" class="logo01">
+            <img src="images/logo02.png" alt="UCH" class="logo02">
+          </a>
+        </div>
+
+        <div class="telephone">
+          <a href="/contact-us/">
+            <img alt="" src="images/telephone.svg" class="telephone01">
+            <img alt="" src="images/telephone02.svg" class="telephone02">
+          </a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="my_nav">
+        <div class="navbar navbar-inverse">
+          <div class="">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              Menu
+            </button>
+
+            <div class="navbar-collapse nav-collapse collapse navbar-header">
+              <div class="menu-topmenu-container">
+                <ul id="menu-topmenu" class="nav navbar-nav">
+                  <li id="menu-item-156"
+                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-156">
+                    <a href="/" aria-current="page">Home</a>
+                  </li>
+                  <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
+                    <a href="/aboutus.html">About Us</a>
+                  </li>
+                  <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43">
+                    <a href="/menu.html">menu</a>
+                  </li>
+                  <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44">
+                    <a href="/order.html">Online Order</a>
+
+                  </li>
+                  <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42">
+                    <a href="/experience.html">Experience</a>
+                  </li>
+                  <li id="menu-item-1214017"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1214017">
+                    <a href="/booking.html">Book A Table</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar"
     style="display: block; background: #d0b468  !important;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -454,7 +552,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- END nav -->
 
 
@@ -550,7 +648,7 @@
         <div class="col-lg-12">
 
           <img src="./images/NewImages/HomePageCarousel/ResizeHomeCarousel/1.jpg" width="100%"
-            style="max-height: 100vh;" loading="lazy" alt="Image description 1" class="">
+            style="max-height: 100vh;"  alt="Image description 1" class="">
         </div>
         <div class="col-lg-12">
           <img src="./images/NewImages/HomePageCarousel/ResizeHomeCarousel/9....jpg" width="100%"
@@ -612,16 +710,16 @@
           <img src="./images/NewImages/HomePageCarousel/ResizeHomeCarousel/12....jpg" width="100%"
             style="max-height: 100vh;" loading="lazy" alt="Image description 7" class="desktop-img">
 
-          <img src="./images/NewImages/HomePageCarousel/POTRAIT HOME/7.jpg" width="100%"
-            style="max-height: 100vh;" loading="lazy" alt="Image description 7" class="mobile-img">
+          <img src="./images/NewImages/HomePageCarousel/POTRAIT HOME/7.jpg" width="100%" style="max-height: 100vh;"
+            loading="lazy" alt="Image description 7" class="mobile-img">
         </div>
         <div class="col-lg-12">
 
           <img src="./images/NewImages/HomePageCarousel/ResizeHomeCarousel/8....jpg" width="100%"
             style="max-height: 100vh;" loading="lazy" alt="Image description 8" class="desktop-img">
 
-          <img src="./images/NewImages/HomePageCarousel/POTRAIT HOME/8.jpg" width="100%"
-            style="max-height: 100vh;" loading="lazy" alt="Image description 8" class="mobile-img">
+          <img src="./images/NewImages/HomePageCarousel/POTRAIT HOME/8.jpg" width="100%" style="max-height: 100vh;"
+            loading="lazy" alt="Image description 8" class="mobile-img">
         </div>
 
         <div class="col-lg-12">
@@ -638,8 +736,8 @@
           <img src="./images/NewImages/HomePageCarousel/ResizeHomeCarousel/7....jpg" width="100%"
             style="max-height: 100vh;" loading="lazy" alt="Image description 12" class="desktop-img">
 
-          <img src="./images/NewImages/HomePageCarousel/POTRAIT HOME/9.jpg" width="100%"
-            style="max-height: 100vh;" loading="lazy" alt="Image description 12" class="mobile-img">
+          <img src="./images/NewImages/HomePageCarousel/POTRAIT HOME/9.jpg" width="100%" style="max-height: 100vh;"
+            loading="lazy" alt="Image description 12" class="mobile-img">
         </div>
 
       </div>
@@ -1979,7 +2077,7 @@
       /* margin-bottom: 0; */
       list-style: none;
       margin-top: 60px;
-      background: #4d2315;
+      /* background: #4d2315; */
       margin-right: -10px;
     }
   }
@@ -2050,6 +2148,30 @@
 
   }
 </style>
+
+
+<!-- header paths start -->
+
+<script type="text/javascript" src="js/header/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/header/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/header/script.js" ></script>
+<script type="text/javascript" src="js/header/jquery-ui.js"></script>
+<script type="text/javascript" src="js/header/wickedpicker.js"></script>
+<script src="js/header/wow.js"></script>
+<script src="js/header/wow.min.js"></script>
+<script type="text/javascript" src="js/header/scripts.js"></script>
+<script type="text/javascript" src="js/header/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="js/header/functions.js"></script>
+<script type="text/javascript" src="js/header/core.min.js"></script>
+<script type="text/javascript" src="js/header/datepicker.min.js"></script>
+<script type="text/javascript" src="js/header/widget.min.js"></script>
+<script type="text/javascript" src="js/header/button.min.js"></script>
+<script type="text/javascript" src="js/header/spinner.min.js"></script>
+<script type="text/javascript" src="js/header/wp-embed.min.js"></script>
+ 
+<!--  header paths end -->
+
+
 
 <script type="text/javascript" charset="UTF-8" src="./United Coffee House_files/common.js.download"></script>
 <script type="text/javascript" charset="UTF-8" src="./United Coffee House_files/util.js.download"></script>
@@ -2176,44 +2298,27 @@
 
 </script> -->
 
-<script type="text/javascript">
-  // Wait for 8 seconds before initializing the slider
-  setTimeout(function () {
-    $('.menu2').slick({
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    $('.menu2').on('init', function () {
+      // init होते ही loader hata do
+      const loader = document.getElementById('index-loader');
+      if (loader) loader.style.display = 'none';
+    }).slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       dots: true,
       autoplaySpeed: 2000,
       responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false
-          }
-        }
+        { breakpoint: 1024, settings: { slidesToShow: 1, slidesToScroll: 1, infinite: true, dots: true } },
+        { breakpoint: 600,  settings: { slidesToShow: 1, slidesToScroll: 1 } },
+        { breakpoint: 480,  settings: { slidesToShow: 1, slidesToScroll: 1, arrows: false } }
       ]
     });
-  }, 8000); // 8000 milliseconds = 8 seconds
+  });
 </script>
+
 
 
 

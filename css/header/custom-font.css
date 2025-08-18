@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: 'Univers-CondensedLight';
+  src: url('../fonts/Univers-CondensedLight.eot#iefix') format('embedded-opentype'),  url('../fonts/Univers-CondensedLight.otf')  format('opentype'),
+	     url('../fonts/Univers-CondensedLight.woff') format('woff'), url('../fonts/Univers-CondensedLight.ttf')  format('truetype'), url('../images/Univers-CondensedLight.svg#Univers-CondensedLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+  font-family: 'Didot';
+  src: url('../fonts/Didot.eot?#iefix') format('embedded-opentype'), url('../fonts/Didot.ttf')  format('truetype'), url('../fonts/Didot.svg#Didot') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+@font-face {
+  font-family: 'Univers';
+  src: url('../fonts/Univers.eot#iefix') format('embedded-opentype'),  url('../fonts/Univers.otf')  format('opentype'),
+	     url('../fonts/Univers.woff') format('woff'), url('../fonts/Univers.ttf')  format('truetype'), url('../images/Univers.svg#Univers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
